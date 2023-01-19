@@ -1,13 +1,21 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.main {
-    display: flex;
-    min-height: 100%;
-}
-
 .left-side {
     background-image: url("./images/unsplash.jpg");
+}
+
+input {
+    border-color: #E5E7EB;
+    outline: none;
+    border-style: double;
+}
+
+button {
+    background-color: #596D48;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    outline: none;
 }
